@@ -61,8 +61,8 @@ This project is not hosted online, but it's completely functional. To use G-Bay 
 ```
   -> scrum-project
     -> [...]
-    -> api
-    -> client
+    -> backend
+    -> frontend
     -> [...]
 ```
 
@@ -71,7 +71,7 @@ Run the following commands in your terminal
 **API**
 
 ```
-  cd api
+  cd backend
 
   // If 'composer' is installed correctly
   composer install
@@ -83,7 +83,7 @@ Run the following commands in your terminal
 **Client**
 
 ```
-  cd client
+  cd frontend
 
   npm
 ```
@@ -93,7 +93,7 @@ Run the following commands in your terminal
 **Database**
 
 ```
-  cd api
+  cd backend
 
   php artisan migrate
 
@@ -137,7 +137,7 @@ Finally, run the next command.
 **API**
 
 ```
-  cd api
+  cd backend
 ```
 
 Create a `.env` file based on the `.env.example` file. Add your credentials in the next section:
