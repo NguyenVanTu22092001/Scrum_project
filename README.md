@@ -49,7 +49,7 @@ This project is not hosted online, but it's completely functional. To use G-Bay 
 ### **Clone repository**
 
 ```
-  git clone git@github.com:Leweyse/scrum-project.git
+  git clone git@github.com:NguyenVaT22092001/Scrum-project.git
 
   cd scrum-project
 ```
