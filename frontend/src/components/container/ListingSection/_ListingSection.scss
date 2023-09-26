@@ -1,0 +1,69 @@
+#listingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    .title {
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        transform: translateY(-50%) rotate(-90deg);
+
+        & > * {
+            font-size: 3.75rem;
+            color: var(--clr-white);
+            -webkit-text-stroke: 1px var(--clr-darkgray);
+        }
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        place-items: center;
+        gap: 2rem;
+
+        .left {
+            display: grid;
+            place-items: center;
+
+            gap: 2rem;
+
+            img {
+                position: relative;
+                width: 50%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }
+
+            input {
+                width: 50%;
+            }
+        }
+
+        #listingForm {
+            display: grid;
+            width: 80%;
+            place-items: center;
+
+            gap: 1.5rem;
+
+            input[type=text],
+            textarea {
+                padding: 0.25rem 0.5rem;
+            }
+
+            & > * {
+                width: 80%;
+                font-size: 0.9rem;
+            }
+
+            .btn {
+                width: max-content;
+                padding: 0.8rem 2rem;
+            }
+        }
+    }
+}

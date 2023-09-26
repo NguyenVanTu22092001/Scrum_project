@@ -1,0 +1,40 @@
+container {
+    position: absolute;
+    margin-left: 35%;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#contactForm {
+    label {
+        font-size: max(1.15vw, 0.55rem);
+    }
+
+    input[type=text], input[type=email], textarea {
+        width: 100%;
+        min-height: 5vh;
+        padding: 12px;
+        border: 1px solid var(--clr-darkgray);
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: max(1.15vw, 0.55rem);
+    }
+      
+    #contactFormSubmitBtn {
+        width: 30%;
+        border: 1px solid var(--clr-darkgray);;
+        border-radius: 5px;
+        padding: 1%;
+        text-align: center;
+        font-size: max(1.15vw, 0.55rem);
+      
+        &:hover,
+        &:focus-visible {
+            color: var(--clr-white);
+            background: var(--clr-cyan);
+            border-color: var(--clr-cyan);
+        }
+    }      
+}

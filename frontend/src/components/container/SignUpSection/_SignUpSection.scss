@@ -1,0 +1,113 @@
+#suSection {
+    display: grid;
+    width: 100%;
+    height: 100%;
+
+    place-items: center;
+
+    .suContainer {
+        display: grid;
+        width: 40%;
+        height: 98%;
+
+        padding: 2rem 0 3rem 0;
+
+        place-items: center;
+        gap: 2rem;
+
+        border: 1px solid var(--clr-darkgray);
+        border-radius: 18px;
+
+        .suLogoCropped {
+            font-size: 3.75rem;
+            color: var(--clr-white);
+            -webkit-text-stroke: 1px var(--clr-darkgray);
+        }
+
+        .suForm {
+            display: grid;
+            gap: 1.5rem;
+
+            place-items: center;
+
+            .suBtn {
+                width: 60%;
+                padding: 0.5rem;
+
+                color: var(--clr-darkgray);
+                font-size: 1.1rem;
+                background: var(--clr-white);
+
+                border: 1px solid var(--clr-darkgray);
+                border-radius: 8px;
+
+                outline: none;
+                transition: 0.3s;
+
+                &:hover,
+                &:focus-visible {
+                    color: var(--clr-white);
+                    background: var(--clr-cyan);
+                    border-color: var(--clr-white);
+                    cursor: pointer;
+                }
+            }
+
+            .suInput {
+                display: grid;
+                gap: 0.25rem;
+
+                & > * {
+                    font-size: 1rem;
+                }
+
+                label {
+                    width: 100%;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+
+                    span {
+                        color: var(--clr-red);
+                    }
+                }
+
+                input {
+                    width: 100%;
+                    padding: 0.25rem 0.5rem;
+                }
+            }
+
+            .suCheckbox {
+                display: grid;
+                place-items: center;
+
+                gap: 1rem;
+              
+                #suRadio {
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+
+                    #tAC {
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                        text-align: left;
+    
+                        span {
+                            color: var(--clr-red);
+                        }
+                    }
+
+                    input {
+                        zoom: 1.5;
+                    }
+                }
+
+                #tACText {
+                    width: 45%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

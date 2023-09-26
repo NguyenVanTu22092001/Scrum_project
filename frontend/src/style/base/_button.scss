@@ -1,0 +1,37 @@
+button {
+    font-size: max(1.25vw, 0.75rem);
+    color: var(--clr-darkgray);
+    background: transparent;
+    
+    border: none;
+
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.btn {
+    width: max-content;
+    padding: 0.8rem 1rem;
+
+    color: var(--clr-darkgray);
+    text-decoration: none;
+
+    border: 1px solid var(--clr-darkgray);
+    border-radius: 11px;
+
+    background: var(--clr-white);
+
+    transition: all 0.2s ease;
+
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+        color: var(--clr-white);
+        background: var(--clr-cyan);
+        border-color: var(--clr-cyan);
+    }
+}

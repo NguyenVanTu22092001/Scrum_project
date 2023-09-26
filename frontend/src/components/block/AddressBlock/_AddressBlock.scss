@@ -1,0 +1,30 @@
+#contactsBlock {
+    position: absolute;
+    margin-left: -55%;
+    width: 30%;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ead637;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .contactsElement {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        span {
+            font-weight: 600;
+            font-size: max(1.15vw, 0.55rem)
+        }
+    }
+
+
+
+}

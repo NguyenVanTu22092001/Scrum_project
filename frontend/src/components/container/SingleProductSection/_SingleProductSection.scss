@@ -1,0 +1,51 @@
+#productPage {
+    display: grid;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    .productPageLeft {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        .productImage {
+            padding: 5%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            width: max(70%, 200px);
+        }
+    }
+
+    .productPageRight {
+
+        padding: 0 10% 0 5%;
+        font-size: max(1.25vw, 0.75rem);
+
+        .productRightElements {
+            padding-bottom: 1.5rem;
+        }
+
+        .productPageBold {
+            font-weight: bold;
+        }
+
+        .productPriceStatistics {
+            display: grid;
+            width: 25rem;
+            height: 12.5rem;
+            place-items: center;
+            font-size: 0.75rem;
+        }
+
+        .productPageAddToCart {
+            width: 25%;
+            margin-left: 65%;
+            font-size: 2vh;
+            background: var(--clr-white);
+        }
+    }
+}

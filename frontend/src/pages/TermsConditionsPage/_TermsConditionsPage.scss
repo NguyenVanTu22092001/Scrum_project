@@ -1,0 +1,22 @@
+#tACPage {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    #tACTitle {
+        font-size: min(2.5vw, 5rem);
+        padding-bottom: 2rem;
+    }
+
+    #tACContent {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+}

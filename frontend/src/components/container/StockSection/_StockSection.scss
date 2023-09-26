@@ -1,0 +1,20 @@
+#stockSection {
+    display: grid;
+    width: 100%;
+
+    place-items: center;
+    gap: 1rem;
+
+    .stockContainer {
+        width: 100%;
+        display: grid;
+        padding: 2vh 4rem;
+
+        place-items: center;
+        justify-content: center;
+
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 0.25fr));
+
+        gap: 4rem;
+    }
+}

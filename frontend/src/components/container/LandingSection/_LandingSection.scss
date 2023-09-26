@@ -1,0 +1,15 @@
+#landingSection {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+
+    .mainLogo {
+        top: 0;
+        font-size: 7vw;
+        z-index: 2;
+    }
+}

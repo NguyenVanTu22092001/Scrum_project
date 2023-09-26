@@ -1,0 +1,20 @@
+@media (max-width: 640px) {
+    #loginPage {
+        #loginContainer {
+            width: 70%;
+            height:70%;
+
+            #loginForm {
+                width: 50%;
+            }
+        }
+    }
+
+    #suPage .suContainer {
+        width: 70%;
+    }
+
+    #productPage {
+        grid-template-columns: 1fr;
+    }
+}
