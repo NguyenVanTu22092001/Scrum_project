@@ -3,10 +3,6 @@
 G-Bay
 </h1>
 
-<div align="center">
-<img src="./screenshots/preview_landing.png" width="75%">
-</div>
-
 ## **Contents**
 
 - [Description](#description)
