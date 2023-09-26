@@ -15,7 +15,7 @@ G-Bay
   - [Extra Information: Client Side](client/README.md)
 - [Features](#features)
 - [Development Book](DEVBOOK.md)
-- [Contributors](#contributors)
+
 
 ## **Description**
 
@@ -229,36 +229,7 @@ Create a `.env` file based on the `.env.example` file. Add your credentials in t
   - Display quantity, total and subtotal
   - Update total and quantity of each product in cart
 
-## **Contributors**
 
-<table>
-<td>
-<article style="text-align:center">
-<img src="https://avatars.githubusercontent.com/u/70060756?v=4" width="150px">
-
-[Jörg von Dzerzawa][gh-j]
-
-[jvondzerza][gh-j]
-
-</article>
-</td>
-<td>
-<article style="text-align:center">
-<img src="https://avatars.githubusercontent.com/u/69996340?v=4" width="150px">
-
-[Daryl Castro][gh-l]
-
-[Leweyse][gh-l]
-
-</article>
-</td>
-<td>
-<article style="text-align:center">
-<img src="https://avatars.githubusercontent.com/u/86771301?v=4" width="150px">
-
-[Katya Heylen][gh-k]
-
-[katyaheylen][gh-k]
 
 </article>
 </td>
