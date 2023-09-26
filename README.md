@@ -234,12 +234,7 @@ Create a `.env` file based on the `.env.example` file. Add your credentials in t
 </article>
 </td>
 <td>
-<article style="text-align:center">
-<img src="https://avatars.githubusercontent.com/u/867168?v=4" width="150px">
 
-[Sushanta Pyakurel][gh-m]
-
-[mesushanta][gh-m]
 
 </article>
 </td>
